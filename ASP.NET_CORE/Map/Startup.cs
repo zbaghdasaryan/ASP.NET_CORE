@@ -31,17 +31,43 @@ namespace Map
             });
 
 
-            app.Map("/index", (index) =>
-            {
-                index.Run(async (context) =>
-                await context.Response.WriteAsync("<h1>index Map</h1>"));
-            });
+            //app.Map("/index", (index) =>
+            //{
+            //    index.Run(async (context) =>
+            //    await context.Response.WriteAsync("<h1>index Map</h1>"));
+            //});
 
-            app.Run(async (context) =>
-            {
+            //app.Run(async (context) =>
+            //{
 
-                await context.Response.WriteAsync("Hello World!");
-            });
+            //    await context.Response.WriteAsync("Hello World!");
+            //});
+
+            //public void Configure(IApplicationBuilder app)
+            //{
+            //    app.Map("/index", Index);
+            //    app.Map("/about", About);
+
+            //    app.Run(async (context) =>
+            //    {
+            //        await context.Response.WriteAsync("Page Not Found");
+            //    });
+            //}
+
+            //private static void Index(IApplicationBuilder app)
+            //{
+            //    app.Run(async context =>
+            //    {
+            //        await context.Response.WriteAsync("Index");
+            //    });
+            //}
+            //private static void About(IApplicationBuilder app)
+            //{
+            //    app.Run(async context =>
+            //    {
+            //        await context.Response.WriteAsync("About");
+            //    });
+            //}
         }
     }
 }
