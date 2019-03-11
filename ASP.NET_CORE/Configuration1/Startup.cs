@@ -32,7 +32,7 @@ namespace Configuration1
         public void Configure(IApplicationBuilder app, IHostingEnvironment env)
         {
             string name = $"<br>name: {appConfig["Name"]}</br>";
-            string surname = $"<br>surname: {appConfig["surname"]}<br>";
+            string surname = $"<br>surname: {appConfig["Surname"]}<br>";
             app.Run(async (context) =>
             {
                 await context.Response.WriteAsync(name +surname);
