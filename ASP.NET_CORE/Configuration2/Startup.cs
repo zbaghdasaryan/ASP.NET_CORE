@@ -38,8 +38,8 @@ namespace Configuration2
             appConfig["ApplicationName"] = env.ApplicationName;
             appConfig["EnvironmentName"] = env.EnvironmentName;
 
-            string appName = $"<br>name: {appConfig["ApplicationName"]}</br>";
-            string envName = $"<br>surname: {appConfig["EnvironmentName"]}<br>";
+            string appName = $"<br>ApplicationName: {appConfig["ApplicationName"]}</br>";
+            string envName = $"<br>EnvironmentName: {appConfig["EnvironmentName"]}<br>";
             app.Run(async (context) =>
             {
                 await context.Response.WriteAsync(appName + envName + env.WebRootPath);
