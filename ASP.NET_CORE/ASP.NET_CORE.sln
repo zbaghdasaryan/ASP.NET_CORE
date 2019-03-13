@@ -17,6 +17,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JSON", "JSON\JSON.csproj", 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GetSection1", "GetSection1\GetSection1.csproj", "{01BC81B6-47BE-447C-9899-7B25EEF56023}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GetSection2", "GetSection2\GetSection2.csproj", "{C8D23D24-D773-44C6-9D42-24E4BCE47B9E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -51,6 +53,10 @@ Global
 		{01BC81B6-47BE-447C-9899-7B25EEF56023}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{01BC81B6-47BE-447C-9899-7B25EEF56023}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{01BC81B6-47BE-447C-9899-7B25EEF56023}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C8D23D24-D773-44C6-9D42-24E4BCE47B9E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C8D23D24-D773-44C6-9D42-24E4BCE47B9E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C8D23D24-D773-44C6-9D42-24E4BCE47B9E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C8D23D24-D773-44C6-9D42-24E4BCE47B9E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
