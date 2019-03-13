@@ -8,7 +8,7 @@ using Microsoft.AspNetCore.Http;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 
-namespace JSON
+namespace GetSection1
 {
     public class Startup
     {
@@ -17,8 +17,11 @@ namespace JSON
         public Startup(IHostingEnvironment env)
         {
             var builder = new ConfigurationBuilder();
+
             builder.SetBasePath(env.ContentRootPath);
-            builder.AddJsonFile("JsonConfig.json");
+
+            builder.AddJsonFile("json.json");
+
             AppConfiguration = builder.Build();
         }
 
@@ -26,10 +29,14 @@ namespace JSON
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
         public void Configure(IApplicationBuilder app)
         {
-           
+            IConfigurationSection sections = AppConfiguration.GetSection("Company");
+            string companyName = sections.GetSection("Name").Value;
+            string companyDevelopers = sections.GetSection("Employees").Value;
+
             app.Run(async (context) =>
             {
-                await context.Response.WriteAsync($"<p style='color: {AppConfiguration["color"]};'> {AppConfiguration["Content"]}</p>");
+                await context.Response.WriteAsync($"<br>Company: {companyName}.</br>");
+                await context.Response.WriteAsync($"<br>Developers: {companyDevelopers}.</br>");
             });
         }
     }

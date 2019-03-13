@@ -1,0 +1,18 @@
+{
+  "Company": {
+    "Name": "Microsoft",
+    "Employees": "100000"
+  },
+  "Users": {
+    "USA": {
+      "Number": "500000"
+    },
+    "Europ": {
+      "Number": "400000"
+    },
+    "Asia": {
+      "Number": "1000000"
+    }
+  } 
+
+}
