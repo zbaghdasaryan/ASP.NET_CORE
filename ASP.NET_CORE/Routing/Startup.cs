@@ -43,6 +43,8 @@ namespace Routing
                        await context.Response.WriteAsync($"<br>{item}</br>");
                    }
                });
+            app.UseRouter(routebuilder.Build());
+
             app.Run(async (context) =>
             {
                 await context.Response.WriteAsync("Default Page!");
