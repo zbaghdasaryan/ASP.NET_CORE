@@ -46,8 +46,10 @@ namespace Universal
             routebuilder.MapRoute("{controler}/{action}/{id}/{*catchall}",
              async (context) =>
              {
-                 await context.Response.WriteAsync("{controler}/{action}/{id} template use");
+                 await context.Response.WriteAsync("{controler}/{action}/{id}/{*catchall} template use");
              });
+
+            app.UseRouter(routebuilder.Build());
 
             app.Run(async (context) =>
             {
