@@ -26,11 +26,29 @@ namespace Universal
                 });
 
             routebuilder.MapRoute("{controler}/{action}",
-
                async (context) =>
                {
                    await context.Response.WriteAsync("{controler}/{action} template use");
                });
+
+            routebuilder.MapRoute("{controler}/{action}/{id}",
+              async (context) =>
+              {
+                  await context.Response.WriteAsync("{controler}/{action}/{id} template use");
+              });
+
+            routebuilder.MapRoute("{controler}/{action}/{id?}",
+             async (context) =>
+             {
+                 await context.Response.WriteAsync("{controler}/{action}/{id} template use");
+             });
+
+            routebuilder.MapRoute("{controler}/{action}/{id}/{*catchall}",
+             async (context) =>
+             {
+                 await context.Response.WriteAsync("{controler}/{action}/{id} template use");
+             });
+
             app.Run(async (context) =>
             {
                 await context.Response.WriteAsync("Default Page!");
