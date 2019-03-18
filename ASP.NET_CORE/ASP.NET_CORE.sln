@@ -29,7 +29,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Models1", "Models1\Models1.
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "StaticFiles", "StaticFiles\StaticFiles.csproj", "{80C85D10-F17C-41D3-8B4D-B6590AED7EB0}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PartyInvites", "PartyInvites\PartyInvites.csproj", "{4786E0D5-7C0C-4FF8-9C55-A8EF2C7AB719}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PartyInvites", "PartyInvites\PartyInvites.csproj", "{4786E0D5-7C0C-4FF8-9C55-A8EF2C7AB719}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

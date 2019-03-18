@@ -5,11 +5,18 @@
 <!DOCTYPE html>
 <html>
 <head>
+    <meta name="viewport" content="width=device-width" />
+    <title>RsvpForm</title>
+    <link rel="stylesheet" href="/css/styles.css" />
+
     <meta name=" v iewport" content="width=device-width" />
     <title>RsvpForm</title>
 </head>
+
 <body>
+
     <form asp-action="RsvpForm" method="post">
+        <div asp-validation-summary="All"></div>
         <p>
             <label asp-for="Name">Your name </label>
             <input asp-for="Name" />
@@ -26,10 +33,11 @@
         <label>Will you attend?</label>
         <select asp-for="WillAttend">
             <option value=" ">Choose an option</option>
-            <option value="true">Yes, I'll Ье there</option>
+            <option value="true">Yes, I'll bе there</option>
             <option value="false">No, I can't come</option>
         </select>
         <button type="submit">Submit RSV</button>
+
     </form>
 
 </body>
