@@ -6,15 +6,16 @@
 <head>
     <meta name=" v iewport" content="width=device-width" />
     <title>Index</title>
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.css" />
 </head>
 <body>
-    <div>
-        @ViewBag.Greeting World (from the view)]
-        <p>
-            We're going to have an exciting party.<br />
-            (То do: sell it better. Add pictures or something.)
-        </p>
-        <a asp-action="RsvpForm">RSVP Now</a>
+
+    <div class="text-center">
+        @ViewBag.Greeting My Friend</br></br>
+        <hЗ>We're going to have an exciting weeding party!</hЗ>
+        <h4>And you are invited</h4>
+        <a class="btn btn-primary" asp-action="RsvpForm">RSVP Now</a>
+
     </div>
 </body>
 </html>
