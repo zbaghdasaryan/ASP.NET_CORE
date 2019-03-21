@@ -13,13 +13,18 @@ namespace LanguageFeatures.Models
         public Product Related { get ; set ; }
         public bool InStock { get; } = true;
 
+        public Product(bool stock = true)
+        {
+            InStock = stock;
+        }
+
     public static Product[] GetProducts() {
             Product kayak = new Product()
             {
                 Name = "Kayak",
                 Price = 275M
             };
-            Product lifejacket = new Product()
+            Product lifejacket = new Product(false)
             {
                 Name = "LifeJacket",
                 Price = 48.95M

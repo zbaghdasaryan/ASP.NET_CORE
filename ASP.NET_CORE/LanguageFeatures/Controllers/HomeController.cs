@@ -16,7 +16,7 @@ namespace LanguageFeatures.Controllers
             {
                 string name = p?.Name ?? "<No Name>";
                 decimal? price = p?.Price ?? 0;
-                string relatedName = p?.Related?.Name;
+                string relatedName = p?.Related?.Name ?? "<No Name>";
                 result.Add(string.Format("Name: {0},  Price: {1},  Related: {2}", name, price, relatedName));
             }
             // return View(new string[] { "C#", "Language", "Features" });
