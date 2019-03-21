@@ -8,9 +8,12 @@ namespace LanguageFeatures.Models
     public class Product
     {
         public string Name { get; set; }
+        public string Category { get; set; } = "Watersport";
         public decimal? Price { get; set; }
+        public Product Related { get ; set ; }
+        public bool InStock { get; } = true;
 
-        public static Product[] GetProducts() {
+    public static Product[] GetProducts() {
             Product kayak = new Product()
             {
                 Name = "Kayak",
@@ -21,6 +24,7 @@ namespace LanguageFeatures.Models
                 Name = "LifeJacket",
                 Price = 48.95M
             };
+            kayak.Related = lifejacket;
             return new Product[] { kayak, lifejacket, null };
         }
     }
