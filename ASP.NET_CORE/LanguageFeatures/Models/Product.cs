@@ -22,6 +22,7 @@ namespace LanguageFeatures.Models
             Product kayak = new Product()
             {
                 Name = "Kayak",
+                Category="Water Craft",
                 Price = 275M
             };
             Product lifejacket = new Product(false)

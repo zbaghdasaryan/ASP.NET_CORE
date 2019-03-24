@@ -20,7 +20,8 @@ namespace LanguageFeatures.Controllers
                 result.Add(string.Format("Name: {0},  Price: {1},  Related: {2}", name, price, relatedName));
             }
             // return View(new string[] { "C#", "Language", "Features" });
-            return View(result);
+            //return View(result);
+            return View("Index", new string[] { "ВоЬ", "Joe", "Alice" });
         }
     }
 }
