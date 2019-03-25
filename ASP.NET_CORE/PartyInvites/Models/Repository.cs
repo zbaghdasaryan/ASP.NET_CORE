@@ -6,7 +6,7 @@ namespace PartyInvites.Models
     {
         private static List<GuestResponse> responses = new List<GuestResponse>();
 
-        public static IEnumerable<GuestResponse> Responses
+        public static List<GuestResponse> Responses
         {
             get
             {

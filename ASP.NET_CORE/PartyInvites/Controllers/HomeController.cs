@@ -27,8 +27,7 @@ namespace PartyInvites.Controllers
         {
 
             if (ModelState.IsValid)
-            {
-            
+            {            
                 Repository.AddResponse(guestResponse);
                 return View("Thanks", guestResponse);
             }
