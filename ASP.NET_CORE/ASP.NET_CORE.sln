@@ -33,7 +33,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PartyInvites", "PartyInvite
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LanguageFeatures", "LanguageFeatures\LanguageFeatures.csproj", "{6ECE6BDD-B0EC-492D-BE65-4C8ECBCAA025}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebinarWebApplication", "WebinarWebApplication\WebinarWebApplication.csproj", "{D1ACFF2B-5E88-4B76-BB9D-F754AC78361B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WebinarWebApplication", "WebinarWebApplication\WebinarWebApplication.csproj", "{D1ACFF2B-5E88-4B76-BB9D-F754AC78361B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Razor", "Razor\Razor.csproj", "{C25B6826-08FC-466A-AC76-DB413403A22B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -105,6 +107,10 @@ Global
 		{D1ACFF2B-5E88-4B76-BB9D-F754AC78361B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D1ACFF2B-5E88-4B76-BB9D-F754AC78361B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D1ACFF2B-5E88-4B76-BB9D-F754AC78361B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C25B6826-08FC-466A-AC76-DB413403A22B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C25B6826-08FC-466A-AC76-DB413403A22B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C25B6826-08FC-466A-AC76-DB413403A22B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C25B6826-08FC-466A-AC76-DB413403A22B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
