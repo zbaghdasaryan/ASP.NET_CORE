@@ -7,7 +7,7 @@ using Microsoft.AspNetCore.Mvc;
 
 namespace Razor.Controllers
 {
-    public class HomeControllers:Controller
+    public class HomeController : Controller
     {
         public ViewResult Index()
         {
@@ -20,6 +20,6 @@ namespace Razor.Controllers
                 Price = 275M
             };
             return View(myProduct);
-        }      
+        }
     }
 }
