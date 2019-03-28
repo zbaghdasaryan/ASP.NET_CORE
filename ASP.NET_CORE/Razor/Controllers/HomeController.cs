@@ -9,8 +9,10 @@ namespace Razor.Controllers
 {
     public class HomeController : Controller
     {
+
         public ViewResult Index()
         {
+
             Product myProduct = new Product
             {
                 ProductID = 1,
@@ -19,7 +21,9 @@ namespace Razor.Controllers
                 Category = "Watersports",
                 Price = 275M
             };
+            ViewBag.StockLevel = 0;
             return View(myProduct);
         }
+       
     }
 }

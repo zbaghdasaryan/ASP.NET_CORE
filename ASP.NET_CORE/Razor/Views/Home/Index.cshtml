@@ -1,18 +1,29 @@
 ﻿@model Product
 
 @{
-    Layout = "_BasicLayout";
     ViewBag.Title = "Product Name";
 }
-Product Name: @Model.Name
+<div data-productid="@Model.ProductID"
+     data-stocklevel="@ViewBag.StockLevel">
 
-@*<!DOCTYPE html>
-<html>
-<head>
-    <meta name=" viewport" content="width=device - width" />
-    <title>Index</title>
-</head>
-<body>
-    @Model.Name
-</body>
-</html>*@
+    <p>Product Name: @Model.Name</p>
+    <p>Product Price: @($"{Model.Price:C2}")</p>
+    <p>
+        Stock Level:
+        @switch ((int)ViewBag.StockLevel)
+        {
+            case 0:
+                @:Out of Stock
+                break;
+            case 1:
+            case 2:
+            case 3:
+                <b>Low Stock (@ViewBag.StockLevel)</b>
+                break;
+            default:
+                @: @ViewBag.StockLevel in Stock
+                break;
+        }
+   </p>
+</div>
+                       
