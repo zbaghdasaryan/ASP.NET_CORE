@@ -7,7 +7,7 @@ using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.Http;
 using Microsoft.Extensions.DependencyInjection;
 
-namespace Run
+namespace WorkingWithVisualStudio
 {
     public class Startup
     {
@@ -27,28 +27,8 @@ namespace Run
 
             app.Run(async (context) =>
             {
-                string host = context.Request.Host.Value;
-                string path = context.Request.Path;
-                string query = context.Request.QueryString.Value;
-               // context.Response.ContentType = "text/html";
-                await context.Response.WriteAsync($"<h3>host: {host}</h3>" + $"<h3>path: {path}</h3>" + $"<h3>query: {query}</h3>" + "Hello World");
+                await context.Response.WriteAsync("Hello World!");
             });
-
-            //{
-            //    int x = 5;
-            //    int y = 8;
-            //    int z = 0;
-            //    app.Use(async (context, next) =>
-            //    {
-            //        z = x * y;
-            //        await next.Invoke();
-            //    });
-
-            //    app.Run(async (context) =>
-            //    {
-            //        await context.Response.WriteAsync($"x * y = {z}");
-            //    });
-            //}
         }
     }
 }
