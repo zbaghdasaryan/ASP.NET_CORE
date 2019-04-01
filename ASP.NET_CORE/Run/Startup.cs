@@ -18,6 +18,9 @@ namespace Run
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
+
+        //public delegate Task RequestDelegate(HttpContext context);
+
         public void Configure(IApplicationBuilder app, IHostingEnvironment env)
         {
             if (env.IsDevelopment())
@@ -25,14 +28,25 @@ namespace Run
                 app.UseDeveloperExceptionPage();
             }
 
-            app.Run(async (context) =>
+            //app.Run(async (context) =>
+            //{
+            //    string host = context.Request.Host.Value;
+            //    string path = context.Request.Path;
+            //    string query = context.Request.QueryString.Value;
+            //    context.Response.ContentType = "text/html; charset=UTF-8";
+            //    await context.Response.WriteAsync($"<h3>host: {host}</h3>" + $"<h3>path: {path}</h3>" + $"<h3>query: {query}</h3>" + "Hello World");
+            //});
+
+            async Task Handler(HttpContext context)
             {
                 string host = context.Request.Host.Value;
                 string path = context.Request.Path;
                 string query = context.Request.QueryString.Value;
-               context.Response.ContentType = "text/html";
+                context.Response.ContentType = "text/html; charset=UTF-8";
                 await context.Response.WriteAsync($"<h3>host: {host}</h3>" + $"<h3>path: {path}</h3>" + $"<h3>query: {query}</h3>" + "Hello World");
-            });
+
+            }
+            app.Run(Handler);
 
             //{
             //    int x = 5;
