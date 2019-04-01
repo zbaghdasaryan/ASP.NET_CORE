@@ -30,7 +30,7 @@ namespace Run
                 string host = context.Request.Host.Value;
                 string path = context.Request.Path;
                 string query = context.Request.QueryString.Value;
-               // context.Response.ContentType = "text/html";
+               context.Response.ContentType = "text/html";
                 await context.Response.WriteAsync($"<h3>host: {host}</h3>" + $"<h3>path: {path}</h3>" + $"<h3>query: {query}</h3>" + "Hello World");
             });
 
