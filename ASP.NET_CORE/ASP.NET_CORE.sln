@@ -39,9 +39,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Razor", "Razor\Razor.csproj
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WorkingWithVisualStudio", "WorkingWithVisualStudio\WorkingWithVisualStudio.csproj", "{6EE297F8-29EB-4A8F-A682-E217375978B6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MapWhen", "MapWhen\MapWhen.csproj", "{840734EA-3C93-496D-B343-BFCD04818438}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MapWhen", "MapWhen\MapWhen.csproj", "{840734EA-3C93-496D-B343-BFCD04818438}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Middleware", "Middleware\Middleware.csproj", "{DCE9EEE9-AF41-4D1C-BB1D-A4C3D52D04F2}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Middleware", "Middleware\Middleware.csproj", "{DCE9EEE9-AF41-4D1C-BB1D-A4C3D52D04F2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SetOfFields", "SetOfFields\SetOfFields.csproj", "{DC813D72-F301-4361-AEE9-276A2C4D5852}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -129,6 +131,10 @@ Global
 		{DCE9EEE9-AF41-4D1C-BB1D-A4C3D52D04F2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DCE9EEE9-AF41-4D1C-BB1D-A4C3D52D04F2}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DCE9EEE9-AF41-4D1C-BB1D-A4C3D52D04F2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DC813D72-F301-4361-AEE9-276A2C4D5852}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DC813D72-F301-4361-AEE9-276A2C4D5852}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DC813D72-F301-4361-AEE9-276A2C4D5852}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DC813D72-F301-4361-AEE9-276A2C4D5852}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
