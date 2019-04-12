@@ -6,7 +6,7 @@ namespace EFCoreApp
     {
         static void Main(string[] args)
         {
-            Console.WriteLine(" World!");
+            Console.WriteLine("Hello World!");
         }
     }
 }
