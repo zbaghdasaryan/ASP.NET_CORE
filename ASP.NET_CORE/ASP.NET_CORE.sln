@@ -43,9 +43,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MapWhen", "MapWhen\MapWhen.
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Middleware", "Middleware\Middleware.csproj", "{DCE9EEE9-AF41-4D1C-BB1D-A4C3D52D04F2}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SetOfFields", "SetOfFields\SetOfFields.csproj", "{DC813D72-F301-4361-AEE9-276A2C4D5852}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SetOfFields", "SetOfFields\SetOfFields.csproj", "{DC813D72-F301-4361-AEE9-276A2C4D5852}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MultipleClasses", "MultipleClasses\MultipleClasses.csproj", "{18454F21-CEE4-42D4-AE26-F586A122EBB5}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MultipleClasses", "MultipleClasses\MultipleClasses.csproj", "{18454F21-CEE4-42D4-AE26-F586A122EBB5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EFCoreApp", "EFCoreApp\EFCoreApp.csproj", "{A40A7F8B-DA81-41D8-A034-957A9B0FCBBD}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -141,6 +143,10 @@ Global
 		{18454F21-CEE4-42D4-AE26-F586A122EBB5}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{18454F21-CEE4-42D4-AE26-F586A122EBB5}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{18454F21-CEE4-42D4-AE26-F586A122EBB5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A40A7F8B-DA81-41D8-A034-957A9B0FCBBD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A40A7F8B-DA81-41D8-A034-957A9B0FCBBD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A40A7F8B-DA81-41D8-A034-957A9B0FCBBD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A40A7F8B-DA81-41D8-A034-957A9B0FCBBD}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
