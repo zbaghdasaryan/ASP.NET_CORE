@@ -1,0 +1,70 @@
+﻿@model CRM_Project.Models.Users
+@{
+    Layout = null;
+}
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Continue</title>
+    <link rel="stylesheet" href="/css/styles.css" />
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.css" />
+</head>
+
+<body>
+    <div class="panel panel-success">
+        <div class="panel-heading text-center"><h4>Add new Member</h4></div>
+        <div class="panel-body">
+            <form class="p-a-1" asp-action="Add new Member" method="post">
+                <div asp-validation-summary="All"></div>
+                <div class="form-group">
+                    <label asp-for="FirstName">First Name:</label>
+                    <input class="form-control" asp-for="FirstName" />
+                </div>
+
+                <div class="form-group">
+                    <label asp-for="LastName">Last Name:</label>
+                    <input class="form-control" asp-for="LastName" />
+                </div>
+
+                <div class="form-group">
+                    <label asp-for="CompanuName">Company Name:</label>
+                    <input class="form-control" asp-for="CompanuName" />
+                </div>
+
+                <div class="form-group">
+                    <label asp-for="Position">Position:</label>
+                    <input class="form-control" asp-for="Position" />
+                </div>
+
+
+                <div class="form-group">
+                    <label asp-for="Email">Email:</label>
+                    <input class="form-control" asp-for="Email" />
+                </div>
+                <div class="form-group">
+                    <label asp-for="Country">Country:</label>
+                    <input class="form-control" asp-for="Country" />
+                </div>
+
+                <div class="text-center">
+                    <button class="btn btn-primary" type="submit">
+                        Save
+                    </button>
+
+                    <button class="btn btn-primary" type="reset">
+                        Cansel
+                    </button>
+
+                </div>
+
+                @*<div class="text-center">
+                    <button class="btn btn-primary" type="submit">
+                        Cansel
+                    </button>
+                </div>*@
+            </form>
+        </div>
+    </div>
+</body>
+</html>

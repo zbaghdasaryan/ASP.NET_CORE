@@ -1,0 +1,21 @@
+﻿@{
+    Layout = null;
+}
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name=" viewport" content="width=device-width" />
+    <title>Index</title>
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.css" />
+</head>
+<body>
+
+    <div class="text-center">
+        @ViewBag.Greeting</br>
+        <hЗ>If you want to add new member please press continue or press cancel to exit</hЗ><br />
+       
+        <a class="btn btn-primary" asp-action="Continue">Continue</a>
+        <a class="btn btn-primary" asp-action="Cancel">Cansel</a>
+    </div>
+</body>
+</html>
