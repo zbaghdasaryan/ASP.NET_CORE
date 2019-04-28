@@ -47,7 +47,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SetOfFields", "SetOfFields\
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MultipleClasses", "MultipleClasses\MultipleClasses.csproj", "{18454F21-CEE4-42D4-AE26-F586A122EBB5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CRM Project", "CRM Project\CRM Project.csproj", "{776F1ACC-DC61-4663-8046-9F3E1FDA9C38}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CRM Project", "CRM Project\CRM Project.csproj", "{776F1ACC-DC61-4663-8046-9F3E1FDA9C38}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OWIN", "OWIN\OWIN.csproj", "{4DC7DAD2-9D0D-4950-8BC2-6A1DBAB76C39}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -147,6 +149,10 @@ Global
 		{776F1ACC-DC61-4663-8046-9F3E1FDA9C38}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{776F1ACC-DC61-4663-8046-9F3E1FDA9C38}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{776F1ACC-DC61-4663-8046-9F3E1FDA9C38}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4DC7DAD2-9D0D-4950-8BC2-6A1DBAB76C39}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4DC7DAD2-9D0D-4950-8BC2-6A1DBAB76C39}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4DC7DAD2-9D0D-4950-8BC2-6A1DBAB76C39}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4DC7DAD2-9D0D-4950-8BC2-6A1DBAB76C39}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
