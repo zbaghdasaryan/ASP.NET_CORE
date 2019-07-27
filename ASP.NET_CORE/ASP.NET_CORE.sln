@@ -49,7 +49,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MultipleClasses", "Multiple
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CRM Project", "CRM Project\CRM Project.csproj", "{776F1ACC-DC61-4663-8046-9F3E1FDA9C38}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OWIN", "OWIN\OWIN.csproj", "{4DC7DAD2-9D0D-4950-8BC2-6A1DBAB76C39}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OWIN", "OWIN\OWIN.csproj", "{4DC7DAD2-9D0D-4950-8BC2-6A1DBAB76C39}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Authentication", "Authentication\Authentication.csproj", "{FA0FE2F9-1457-482B-AB47-6385904AA4F8}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -153,6 +155,10 @@ Global
 		{4DC7DAD2-9D0D-4950-8BC2-6A1DBAB76C39}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4DC7DAD2-9D0D-4950-8BC2-6A1DBAB76C39}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4DC7DAD2-9D0D-4950-8BC2-6A1DBAB76C39}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FA0FE2F9-1457-482B-AB47-6385904AA4F8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FA0FE2F9-1457-482B-AB47-6385904AA4F8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FA0FE2F9-1457-482B-AB47-6385904AA4F8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FA0FE2F9-1457-482B-AB47-6385904AA4F8}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

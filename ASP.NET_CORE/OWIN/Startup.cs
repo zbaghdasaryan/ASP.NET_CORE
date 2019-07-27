@@ -55,6 +55,6 @@ namespace OWIN
 
             return responseStream.WriteAsync(responseBytes, 0, responseBytes.Length);
             */
-        }
     }
 }
+
