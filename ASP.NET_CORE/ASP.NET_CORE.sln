@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 15
-VisualStudioVersion = 15.0.28307.438
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29905.134
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Run", "Run\Run.csproj", "{C422F2D5-0D6A-4817-B9F1-E8419109D19E}"
 EndProject
@@ -25,8 +25,6 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Universal", "Universal\Univ
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MVC", "MVC\MVC.csproj", "{04B1FD59-318A-4102-B78E-689E90A89285}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Models1", "Models1\Models1.csproj", "{DF34A676-291E-4376-B4A9-7475EF825786}"
-EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "StaticFiles", "StaticFiles\StaticFiles.csproj", "{80C85D10-F17C-41D3-8B4D-B6590AED7EB0}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PartyInvites", "PartyInvites\PartyInvites.csproj", "{4786E0D5-7C0C-4FF8-9C55-A8EF2C7AB719}"
@@ -36,8 +34,6 @@ EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WebinarWebApplication", "WebinarWebApplication\WebinarWebApplication.csproj", "{D1ACFF2B-5E88-4B76-BB9D-F754AC78361B}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Razor", "Razor\Razor.csproj", "{1F5DBF18-5094-4ED2-B51A-D0F3B57DD20C}"
-EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WorkingWithVisualStudio", "WorkingWithVisualStudio\WorkingWithVisualStudio.csproj", "{6EE297F8-29EB-4A8F-A682-E217375978B6}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MapWhen", "MapWhen\MapWhen.csproj", "{840734EA-3C93-496D-B343-BFCD04818438}"
 EndProject
@@ -51,7 +47,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CRM Project", "CRM Project\
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OWIN", "OWIN\OWIN.csproj", "{4DC7DAD2-9D0D-4950-8BC2-6A1DBAB76C39}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Authentication", "Authentication\Authentication.csproj", "{FA0FE2F9-1457-482B-AB47-6385904AA4F8}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Authentication", "Authentication\Authentication.csproj", "{FA0FE2F9-1457-482B-AB47-6385904AA4F8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RolesApp", "RolesApp\RolesApp.csproj", "{65B5E54C-0E9F-47B9-B135-5CDBBC4A4239}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -103,10 +101,6 @@ Global
 		{04B1FD59-318A-4102-B78E-689E90A89285}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{04B1FD59-318A-4102-B78E-689E90A89285}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{04B1FD59-318A-4102-B78E-689E90A89285}.Release|Any CPU.Build.0 = Release|Any CPU
-		{DF34A676-291E-4376-B4A9-7475EF825786}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{DF34A676-291E-4376-B4A9-7475EF825786}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{DF34A676-291E-4376-B4A9-7475EF825786}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{DF34A676-291E-4376-B4A9-7475EF825786}.Release|Any CPU.Build.0 = Release|Any CPU
 		{80C85D10-F17C-41D3-8B4D-B6590AED7EB0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{80C85D10-F17C-41D3-8B4D-B6590AED7EB0}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{80C85D10-F17C-41D3-8B4D-B6590AED7EB0}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -127,10 +121,6 @@ Global
 		{1F5DBF18-5094-4ED2-B51A-D0F3B57DD20C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1F5DBF18-5094-4ED2-B51A-D0F3B57DD20C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1F5DBF18-5094-4ED2-B51A-D0F3B57DD20C}.Release|Any CPU.Build.0 = Release|Any CPU
-		{6EE297F8-29EB-4A8F-A682-E217375978B6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{6EE297F8-29EB-4A8F-A682-E217375978B6}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{6EE297F8-29EB-4A8F-A682-E217375978B6}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{6EE297F8-29EB-4A8F-A682-E217375978B6}.Release|Any CPU.Build.0 = Release|Any CPU
 		{840734EA-3C93-496D-B343-BFCD04818438}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{840734EA-3C93-496D-B343-BFCD04818438}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{840734EA-3C93-496D-B343-BFCD04818438}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -159,6 +149,10 @@ Global
 		{FA0FE2F9-1457-482B-AB47-6385904AA4F8}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FA0FE2F9-1457-482B-AB47-6385904AA4F8}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FA0FE2F9-1457-482B-AB47-6385904AA4F8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{65B5E54C-0E9F-47B9-B135-5CDBBC4A4239}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{65B5E54C-0E9F-47B9-B135-5CDBBC4A4239}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{65B5E54C-0E9F-47B9-B135-5CDBBC4A4239}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{65B5E54C-0E9F-47B9-B135-5CDBBC4A4239}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
