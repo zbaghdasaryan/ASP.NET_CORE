@@ -49,9 +49,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OWIN", "OWIN\OWIN.csproj", 
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Authentication", "Authentication\Authentication.csproj", "{FA0FE2F9-1457-482B-AB47-6385904AA4F8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RolesApp", "RolesApp\RolesApp.csproj", "{65B5E54C-0E9F-47B9-B135-5CDBBC4A4239}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RolesApp", "RolesApp\RolesApp.csproj", "{65B5E54C-0E9F-47B9-B135-5CDBBC4A4239}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClaimsApp", "ClaimsApp\ClaimsApp.csproj", "{24C8DD90-1889-4F3C-89EB-B70415FE6E5F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ClaimsApp", "ClaimsApp\ClaimsApp.csproj", "{24C8DD90-1889-4F3C-89EB-B70415FE6E5F}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EmployeeManagment", "..\..\..\EmployeeManagment\EmployeeManagment\EmployeeManagment.csproj", "{175B951A-1812-4F31-BC52-6A5184B32E68}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -159,6 +161,10 @@ Global
 		{24C8DD90-1889-4F3C-89EB-B70415FE6E5F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{24C8DD90-1889-4F3C-89EB-B70415FE6E5F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{24C8DD90-1889-4F3C-89EB-B70415FE6E5F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{175B951A-1812-4F31-BC52-6A5184B32E68}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{175B951A-1812-4F31-BC52-6A5184B32E68}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{175B951A-1812-4F31-BC52-6A5184B32E68}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{175B951A-1812-4F31-BC52-6A5184B32E68}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
