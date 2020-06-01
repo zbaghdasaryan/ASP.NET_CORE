@@ -43,7 +43,7 @@ namespace EmployeeManagment.Models
 
         public Employee Update(Employee employeeChanges)
         {
-           var employee= context.Employees.Attach(employeeChanges);
+            var employee = context.Employees.Attach(employeeChanges);
             employee.State = Microsoft.EntityFrameworkCore.EntityState.Modified;
             context.SaveChanges();
             return employeeChanges;

@@ -16,7 +16,9 @@ namespace EmployeeManagment.Models
         [EmailAddress]
         [Display(Name="Office Email")]
         public string Email { get; set; }
-        [Required]
+               [Required]
         public Dept? Department { get; set; }
+        public string PhotoPath { get; set; }
+
     }
 }

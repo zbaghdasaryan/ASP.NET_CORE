@@ -5,11 +5,20 @@
     <AspNetCoreHostingModel>InProcess</AspNetCoreHostingModel>
   </PropertyGroup>
 
+  <ItemGroup>
+    <Compile Remove="Migrations\20200601121154_AddPhotoPathColumn.cs" />
+    <Compile Remove="Migrations\20200601121154_AddPhotoPathColumn.Designer.cs" />
+    <Compile Remove="Migrations\20200601121810_AddPhotoPathColumn.cs" />
+    <Compile Remove="Migrations\20200601121810_AddPhotoPathColumn.Designer.cs" />
+    <Compile Remove="Migrations\20200601121947_AddSomeProperty.cs" />
+    <Compile Remove="Migrations\20200601121947_AddSomeProperty.Designer.cs" />
+  </ItemGroup>
+
 
   <ItemGroup>
     <PackageReference Include="Microsoft.AspNetCore.App" />
     <PackageReference Include="Microsoft.AspNetCore.Razor.Design" Version="2.2.0" PrivateAssets="All" />
-    <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="3.1.3" />
+    <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="2.2.4" />
   </ItemGroup>
 
 </Project>
