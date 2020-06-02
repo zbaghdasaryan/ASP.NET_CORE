@@ -21,9 +21,9 @@ namespace EmployeeManagment.Models
                 new Employee
                 {
                     Id = 2,
-                    Name = "Tatev",
+                    Name = "Avo",
                     Department = Dept.PM,
-                    Email = "tatev@utaxi.com"
+                    Email = "Avo@utaxi.com"
                 }
             );
         }

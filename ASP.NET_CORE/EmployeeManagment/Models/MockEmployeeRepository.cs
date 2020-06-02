@@ -34,5 +34,10 @@ namespace EmployeeManagment.Models
         {
             return _employeeList.FirstOrDefault(e => e.Id == Id);
         }
+
+        public Employee Update(Employee employeeChanges)
+        {
+            throw new NotImplementedException();
+        }
     }
 }
